@@ -5,22 +5,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Etch-a-Sketch</h1>
+    <h2> Etch-a-Sketch</h2>
     <div class="content">
         <div class="tools">
-            <h3> Canvas Tools</h3>
+            <h3 style="color:black"> Canvas Tools</h3>
             <div class ="buttons">
-                <button class="size"> Canvas Size</button>
-                <button class="reset"> Reset Canvas</button>
-                <button class="size"> Change color </button>
-                <button class="size"> Eraser</button>
+                <button class="size" onclick="canvasSize()"> Canvas Size</button>
+            </div>
+            <div class ="buttons">
+                <button class="color" onclick="changeColor()"> Color Change</button>
+            </div>
+            <div class ="buttons">
+                <button class="erase" onclick="erase()"> Erase</button>
+            </div>
+            <div class ="buttons">
+                <button class="reset" onclick="resetCanvas()"> Reset</button>
             </div>
         </div>
         <div class ="draw">
-            <div class="container"></div>
+            <div class="container">
+            </div>
         </div>
     </div>
-
     <script src="index.js"></script>
 </body>
 

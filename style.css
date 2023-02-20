@@ -1,21 +1,19 @@
 body {
-    box-sizing: border-box;
-    background-color: rgb(47, 36, 47);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
     color: white;
 }
 
-h1 {
-    margin-bottom: 50px;
-    color: rgb(207, 184, 54);
+h2 {
+    margin-bottom: 30px;
+    color: rgb(139, 137, 126);
 }
 
 .content {
     display: flex;
-    gap: 3em;
+    gap: 5em;
 }
 
 .container {
@@ -26,19 +24,15 @@ h1 {
     flex-direction: column;
 }
 
-.draw {
-    text-align: center;
-}
-
 .tools {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
+    
 }
 
 .rowDiv {
@@ -47,7 +41,7 @@ h1 {
 
 .start {
     background-color: white;
-    flex: 1;
+    flex: 10;
 }
 
 div .red {
@@ -58,12 +52,12 @@ div .orange {
     background-color: orange;
 }
 
-div .yellow {
-    background-color: yellow;
-}
-
 div .green {
     background-color: green;
+}
+
+div .yellow {
+    background-color: yellow;
 }
 
 div .blue {
@@ -79,11 +73,8 @@ div .violet {
 }
 
 button {
-    background-color: rgb(47, 36, 47);
-    color: white;
-    font-family: 'Press Start 2P', cursive;
     margin: 10px;
-    padding: 10px 30px;
-    border: 3px solid white;
-    border-radius: 8px;
+    padding: 10px 20px;
+    border: 4px solid black;
+    border-radius: 7px;
 }
